@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bebas+Neue&family=Kenia&family=Nova+Square&family=Oswald:wght@600&family=Roboto+Mono&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+#bg{
+    background-position: center bottom 0px;
+    background-image: url(https://static.qustodio.com/public-site/uploads/2021/08/06123931/group-67%403x.png)!important;
+    height: 65em;
+    margin-top: -0.5rem;
+        
+}
+#img img{
+    height: 45rem;
+    margin-top: 10rem;
+    
+  
+    
+}
+
+
+#wrapper{
+    display: flex;
+    gap: 200px;
+   
+}
+#stuff{
+    font-family: 'Barlow', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Kenia', sans-serif;
+font-family: 'Nova Square', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+font-size: 50px;
+margin-top: 15rem;
+
+margin-left: 7.5rem;
+
+
+
+
+}
+#stuff span{
+    color: #49c592;
+}
+
+#para{
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+}
+#btn{
+    background-color:slateblue;
+    color: white;
+    padding: 1.5rem;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    border-color: slateblue;
+    margin-top: 1.75rem;
+    
+}
+#btn:hover{
+    opacity: 0.9;
+    box-shadow: slateblue 1px 2px;
+}
+#container{
+    
+    text-align: center;
+    background-color: #6864fc;
+    padding-bottom: 2.5rem;
+}
+#parent{
+   font-size: 3.5rem;
+   color: white;
+   font-family: 'Barlow', sans-serif;
+   font-family: 'Bebas Neue', sans-serif;
+   font-family: 'Kenia', sans-serif;
+   font-family: 'Nova Square', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Roboto Mono', monospace;
+   font-family: 'Ubuntu', sans-serif;
+}
+#cards{
+    display: flex;
+    gap: 150px;
+    margin-left: 15rem;
+    margin-top: 3rem;
+   
+}
+#main{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 3rem;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#subhead{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+#image{
+    margin-left: 10rem;
+}
+#concerns{
+    display: flex;
+    gap: 200px;
+}
+#row{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  
+}
+#start{
+    display: flex;
+    font-size: 2rem;
+    
+}
+#start img{
+    margin-top: 0.25rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+#describe{
+    font-size: 1.5rem;
+    display: none;
+    margin-top: 1rem;
+}
+#col1{
+    margin-left: 4rem;
+    border-width: 2px;
+    border: slateblue;
+    padding: 1rem;
+}
+#col{
+    padding: 1rem;
+}
+#describe1{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#rows{
+    margin-top: 3rem;
+}
+#guide{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #4d4d4d;
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+
+
+
+
+

@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Card 1",
+      "description": "This is the description for Card 1.",
+      "price": 10.99,
+      "image": "https://static.qustodio.com/public-site/uploads/2022/04/27152944/group-60%402x.png"
+    },
+    {
+      "title": "Card 2",
+      "description": "",
+      "price": 19.99,
+      "image": "https://static.qustodio.com/public-site/uploads/2022/04/27153931/group-55%402x.png"
+    },
+    {
+      "title": "Card 3",
+      "description": "This is the description for Card 3.",
+      "price": 14.99,
+      "image": "https://static.qustodio.com/public-site/uploads/2022/04/27153842/group-47%402x.png"
+    }
+  ]
+  
