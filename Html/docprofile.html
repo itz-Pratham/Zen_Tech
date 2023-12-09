@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor's Page</title>
+  <style>
+    body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    max-height: 100%;
+    max-width: 1137px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    align-items: center;
+    margin-top: 17px;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px rgb(90, 217, 255);
+    margin-bottom: 20px;
+
+  }
+
+  .about-title {
+    text-align:center;
+    align-content: center;
+}
+.about-title img{
+    align-items: center;
+    align-self: start;
+    max-width: 350px;
+    padding: 1px;
+    height: 220px;
+    border: 10px solid rgb(73, 203, 171);
+    border-radius: 15px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    align-items: baseline;
+    width: 100%;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+  }
+  
+  .doctor-details {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  
+  .info {
+    margin-bottom: 20px;
+  }
+  
+  .services {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .services ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  .feedback textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .feedback-button,
+  .appointment-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-button:hover,
+  .appointment-button:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777; 
+  }
+  
+  footer a {
+    color: #4CAF50;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  </style>
+
+</head>
+<body>
+    <div class="about-title">
+        <!-- <h1  id="aboutUs">Lipsticks</h1> -->
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/35af6a41332353.57a1ce913e889.jpg" alt="lipstick design">
+      </div>
+  <div class="container">
+    <div class="doctor-details">
+      <header>
+        <h1>Dr. Goodwill Osborne</h1>
+        <p>Specialist in Managing Screen Time</p>
+      </header>
+      <div class="info">
+        <h2>About Dr. Goodwill Osborne</h2>
+        <p>Dr. Goodwill Osborne, aged 45, holds a Ph.D. in Psychology from the University of XYZ and has over 20 years of experience specializing in managing screen time and its effects.</p>
+      </div>
+
+      <section class="services">
+        <h2>Services Offered</h2>
+        <ul>
+          <li>Screen time management techniques</li>
+          <li>Identifying and mitigating negative effects</li>
+          <li>Customized plans for individuals and families</li>
+          <li>Educational workshops and seminars</li>
+        </ul>
+      </section>
+
+      <div class="feedback">
+        <h2>Feedback</h2>
+        <textarea rows="4" placeholder="Write your feedback here..."></textarea>
+        <button class="feedback-button">Submit Feedback</button>
+      </div>
+
+      <div class="appointment">
+        <button class="appointment-button">Make an Appointment</button>
+      </div>
+
+      <footer>
+        <p>Contact Dr. Goodwill Osborne for an appointment: <a href="mailto:drjohndoe@example.com">drgoodwille@example.com</a></p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

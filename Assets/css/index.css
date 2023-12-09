@@ -6,6 +6,7 @@
     background-image: url(https://static.qustodio.com/public-site/uploads/2021/08/06123931/group-67%403x.png)!important;
     height: 65em;
     margin-top: -0.5rem;
+    height: 778px;
         
 }
 #img img{
@@ -46,7 +47,8 @@ margin-left: 7.5rem;
 
 #para{
     font-size: 1.75rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    line-height: 35px;
 }
 #btn{
     background-color:slateblue;
@@ -67,7 +69,7 @@ margin-left: 7.5rem;
     
     text-align: center;
     background-color: #6864fc;
-    padding-bottom: 2.5rem;
+    padding-bottom: 6.5rem;
 }
 #parent{
    font-size: 3.5rem;
@@ -79,6 +81,7 @@ margin-left: 7.5rem;
    font-family: 'Oswald', sans-serif;
    font-family: 'Roboto Mono', monospace;
    font-family: 'Ubuntu', sans-serif;
+   padding-bottom: 4rem;
 }
 #cards{
     display: flex;
@@ -116,6 +119,7 @@ margin-left: 7.5rem;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5rem;
     padding-top: 1rem;
+    padding-bottom: 0;
 }
 #image{
     margin-left: 8rem;
@@ -210,7 +214,7 @@ ul{
 .footer-col h4::before{
 	content: '';
 	position: absolute;
-	left:0;
+	left:103px;
 	bottom: -10px;
 	background-color: #e91e63;
 	height: 2px;
@@ -251,6 +255,22 @@ ul{
 	background-color: #ffffff;
 }
 
+.newsletter-button button {
+  margin-top: 15px !important;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #42f4eb;
+  color: #3a3838;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-button button:hover {
+  background-color: #96c0ff;
+}
+
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{
@@ -284,7 +304,7 @@ ul{
   .carding img {
     border-radius: 5px 5px 0 0;
     
-    height: 300px;
+    height: 250px;
     
   }
   .carding span{
@@ -321,8 +341,9 @@ ul{
   }
   #line{
     height: 150px;
-    background-color:#6864fc;
+    background-color:#187c2e;
     width: 10px;
     margin-left: -1rem;
     margin-top: -2.75rem;
+    margin-right: 1px;
   }
