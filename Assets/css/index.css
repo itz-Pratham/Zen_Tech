@@ -31,7 +31,7 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Ubuntu', sans-serif;
 font-size: 50px;
-margin-top: 15rem;
+margin-top: 12rem;
 
 margin-left: 7.5rem;
 
@@ -45,7 +45,7 @@ margin-left: 7.5rem;
 
 #para{
     font-size: 1.75rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 #btn{
     background-color:slateblue;
@@ -55,7 +55,7 @@ margin-left: 7.5rem;
     border-radius: 10px;
     font-size: 1.4rem;
     border-color: slateblue;
-    margin-top: 1.75rem;
+    margin-top: 1.5rem;
     
 }
 #btn:hover{
