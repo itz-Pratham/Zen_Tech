@@ -9,7 +9,7 @@
         
 }
 #img img{
-    height: 45rem;
+    height: 35rem;
     margin-top: 10rem;
     
   
@@ -19,7 +19,8 @@
 
 #wrapper{
     display: flex;
-    gap: 200px;
+    gap: 175px;
+  
    
 }
 #stuff{
@@ -31,7 +32,7 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Ubuntu', sans-serif;
 font-size: 50px;
-margin-top: 12rem;
+margin-top: 8rem;
 
 margin-left: 7.5rem;
 
@@ -82,9 +83,15 @@ margin-left: 7.5rem;
 #cards{
     display: flex;
     gap: 150px;
-    margin-left: 15rem;
+    margin-left: 11rem;
     margin-top: 3rem;
    
+}
+#cards img{
+  height: 15rem;
+}
+#cards p{
+  font-size: 20px;
 }
 #main{
     text-align: center;
@@ -111,7 +118,7 @@ margin-left: 7.5rem;
     padding-top: 1rem;
 }
 #image{
-    margin-left: 10rem;
+    margin-left: 8rem;
 }
 #concerns{
     display: flex;
@@ -125,6 +132,7 @@ margin-left: 7.5rem;
 #start{
     display: flex;
     font-size: 2rem;
+    margin-left: -2rem;
     
 }
 #start img{
@@ -264,7 +272,7 @@ ul{
     width: 25%;
     border-radius: 5px;
     margin-top: 5rem;
-    margin-left: 5.5rem;
+    margin-left: 4rem;
     padding: 7.5px;
 
   }
