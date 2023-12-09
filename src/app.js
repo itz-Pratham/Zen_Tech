@@ -12,7 +12,7 @@ app.use(express.static(static_path1));
 app.set("view-engine","pug");
 app.set("views",static_path);
 app.get("/",(req,res)=>{
-    res.render("b.pug")
+    res.render("home.pug")
 });
 app.listen(port,()=>{
     console.log(`server is running at port ${port}`)

@@ -1,0 +1,140 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    style   
+      include ../../Assets/css/index.css
+    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css')
+  body
+    include ../partials/navbar.pug
+    #bg
+      #wrapper
+        #stuff
+          | The all-in-one
+          br
+          span parental control
+          br
+          | and digital wellbeing solution
+          br
+          p#para
+            | Over 6 million parents trust Qustodio&apos;s parental control tools
+            br
+            |  to keep their kids&apos; screen time safe and balanced on 
+            br
+            |  every device&mdash;all from a single dashboard
+          button#btn Get Started For Free
+        #img
+          img#online(src='https://static.qustodio.com/public-site/uploads/2021/08/06124055/group-69%402x.png')
+    #container
+      #parent
+        | Parental controls made easy
+      #cards
+    #main
+      #heading We&apos;re here to help with your concerns
+      #subhead
+        | Whatever their age and needs, Qustodio&apos;s parental control tools help reduce the risks your kids face online.
+      #concerns
+        #image
+          img(src='https://static.qustodio.com/public-site/uploads/2022/03/10102256/imagekidcellphone%402x.png')
+        #rows
+          #row
+            #col
+              #start
+                p Cyberbulling
+                img#plus(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcLpiZuL_prT1uTlixfEx1lJaQz9MyQbq7IA&usqp=CAU', style='height: 2rem;')
+              span#describe Using
+            #col1
+              #start
+                p Cyberbulling
+                img#plus1(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcLpiZuL_prT1uTlixfEx1lJaQz9MyQbq7IA&usqp=CAU', style='height: 2rem;')
+              span#describe1 Using
+    #guide Meet our experts
+    #consultants
+      .carding
+        img(src='https://mir-s3-cdn-cf.behance.net/project_modules/1400/35af6a41332353.57a1ce913e889.jpg', alt='Avatar', style='width:100%')
+        .container
+          span
+            b
+              a(href='docprofile.html') Goodwill Osborne
+          |  
+          #pics
+            #line
+            p
+              | &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;
+      .carding
+        img(src='https://media.istockphoto.com/id/1326420590/photo/portrait-of-happy-black-male-psychologist-looking-at-camera-and-taking-notes-during-therapy.jpg?s=612x612&w=0&k=20&c=sQIUcX108sC9tH4CG9Vh4RYjthJ5bJpUFfdcGcdKiM4=', alt='Avatar', style='width:100%')
+        .container
+          span
+            b
+              a(href='docprofile.html') Bernard Horton
+          |  
+          #pics
+            #line
+            p
+              | &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;
+      .carding
+        img(src='https://lh7-us.googleusercontent.com/8auws9XDKhfGO8smyxHYZ0ktZFM2S8pnE87nHQNFAQNcGp_sAdubPwVoeOHp1AbfhZ0sgPcr33_gIMK_Rlp-zj-k3eaxsf4AoQUKeTZavE09F3yFTLcABoTrrxqmwNaxMh2V76lVDhUb', alt='Avatar', style='width:100%')
+        .container
+          span
+            b
+              a(href='docprofile.html') Jane Doe
+          |  
+          #pics
+            #line
+            p
+              | &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;
+    footer.footer
+      .container
+        .row
+          .footer-col
+            h4 company
+            ul
+              li
+                a(href='#') about us
+              li
+                a(href='#') our services
+              li
+                a(href='#') privacy policy
+              li
+                a(href='#') affiliate program
+          .footer-col
+            h4 get help
+            ul
+              li
+                a(href='#') FAQ
+              li
+                a(href='#') shipping
+              li
+                a(href='#') returns
+              li
+                a(href='#') order status
+              li
+                a(href='#') payment options
+          .footer-col
+            h4 online shop
+            ul
+              li
+                a(href='#') watch
+              li
+                a(href='#') bag
+              li
+                a(href='#') shoes
+              li
+                a(href='#') dress
+          .footer-col
+            h4 follow us
+            .social-links
+              a(href='#')
+                i.fab.fa-facebook-f
+              a(href='#')
+                i.fab.fa-twitter
+              a(href='#')
+                i.fab.fa-instagram
+              a(href='#')
+                i.fab.fa-linkedin-in
+            .newsletter-button
+              button(onclick='subscribeToNewsletter()') Newsletter
+    include ../partials/chatbot.pug
+    script  
+      include ../../Assets/js/index.js

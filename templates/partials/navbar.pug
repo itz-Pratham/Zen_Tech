@@ -1,0 +1,28 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Fancy Navbar
+    style 
+        include ../../Assets/css/navbar.css
+  body
+    .navbar
+      .brand ZEN_TECH
+      .links
+        a(href='/home') Home
+        a.features-link(href='#') Features
+          ul.menu
+            li
+              a(href='#') Feature 1
+            li
+              a(href='#') Feature 2
+            li
+              a(href='#') Feature 3
+        a(href='/blog') Blog
+        a(href='/webinars') Contact
+      .buttons
+        button Login
+        button Signup
+      script  
+        include ../../Assets/js/navbar.js
